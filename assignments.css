@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FCF6D9;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+ul{
+    font-size: 1.25rem;
+    list-style-position: inside;
+}
+li::marker {
+    color: #FCF6D9;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+li{
+
+    background-color: #9CC6DB;
+    line-height: 1.5;
+    margin: 1.5rem;
+    border-radius: 8px;
+    letter-spacing: 1.5px;
+    transition: all 1s ease;
+    padding: .5rem 1rem;
+    display: block;
+    
+}
+
+h1{
+    background-color: #9CC6DB;
+    text-align: center;
+    color: #FCF6D9;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color: #FCF6D9;
+    font-size: 1.5rem;
+
+}
+li:hover{
+    transform:  scale(1.1);
+
+}
