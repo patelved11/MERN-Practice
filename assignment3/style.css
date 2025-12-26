@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    text-align: center;
+    background-color: rgb(172, 169, 164);
+    padding: 10px;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 200px;
+    margin-top: 100px;
+    justify-content: center;
+    
+}
+.box{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* display: inline-block; */
+}
+h1{
+    color:white ;
+}
+.forms{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+input{
+    padding: 5px;
+}
+button{
+    padding: 5px 10px;
+
+}
